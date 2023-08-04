@@ -1,0 +1,1 @@
+del *.in & del *.out & del *.exe & del *.ans
