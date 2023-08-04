@@ -1,8 +1,8 @@
-﻿# 对拍模板 (Powered by @[tianbiandeshenghuo11](https://www.luogu.com.cn/user/752485))
+# 对拍模板 (Powered by @[tianbiandeshenghuo11](https://www.luogu.com.cn/user/752485))
 
 本模板基于 CC0-1.0 知识共享协议开源。
 
-模板下载地址：(https://kgithub.com/tianbiandeshenghuo/Beet_Matching_template)
+模板下载地址：[Link](https://github.com/tianbiandeshenghuo/Beet_Matching_template)
 
 宣传：[TBSH OJ](http://123.57.5.69)
 
