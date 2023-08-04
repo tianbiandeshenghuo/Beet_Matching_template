@@ -4,6 +4,8 @@
 
 模板下载地址：[Link](https://github.com/tianbiandeshenghuo/Beet_Matching_template)
 
+**别忘了点亮右上角的小星星~**
+
 宣传：[TBSH OJ](http://123.57.5.69)
 
 **注意**，当前服务器即将到期。我们将会在不久后更新服务器。届时该网址将会失效。为您造成的不便，敬请谅解。
