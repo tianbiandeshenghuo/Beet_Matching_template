@@ -15,7 +15,7 @@
 
 如果您当前的系统环境是 `Windows`，您无需修改 `bat.cpp`。
 
-如果您当前的系统环境是**非** `Windows`，您需要将 `bat.cpp` 中的 `if (system("fc t.out t.ans"))` 改为 `if (system("diff t.out t.ans"))`，`system("xs < t.in > t.out)"` 前后三行调用的 `system` 函数中的源程序名前加上 `./`。即更改为：`system("./xs < t.in > t.out)`。`systen("./checker %RANDOM% > t.in")` 需修改为 `system("./checker $RANDOM$ > t.in")`。
+如果您当前的系统环境是**类** `Unix`（例如 `Linux`），您需要将 `bat.cpp` 中的 `if (system("fc t.out t.ans"))` 改为 `if (system("diff t.out t.ans"))`，`system("xs < t.in > t.out)"` 前后三行调用的 `system` 函数中的源程序名前加上 `./`。即更改为：`system("./xs < t.in > t.out)`。`systen("./checker %RANDOM% > t.in")` 需修改为 `system("./checker $RANDOM$ > t.in")`。
 
 同时，本对拍模板提供 `Special Judge`。如您需要使用，请将 `if (system("fc/diff t.out t.ans"))` 改为 `if (system("spj.exe t.in t.out t.ans"))`。详细使用教程可参考 [洛谷帮助中心-Special Judge 功能说明](https://help.luogu.com.cn/manual/luogu/problem/special-judge)。
 
