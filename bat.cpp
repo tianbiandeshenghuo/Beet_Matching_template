@@ -15,10 +15,10 @@ int main(){
       cout << "Time Limit Exceeded on test #" << i << ".Time: " << xscb - xsca << "ms.STD time:" << solcb - xscb << "ms.\n";
     }
     if (system("fc t.out t.ans")){
-      cout << "Wrong answer on test #" << i << ".Time: " << xscb - xsca << "msSTD time:" << solcb - xscb << "ms.\n";
+      cout << "Wrong answer on test #" << i << ".Time: " << xscb - xsca << "ms.STD time:" << solcb - xscb << "ms.\n";
       return 0;
     }
-    cout << "Accept on test #" << i << ".Time: " << xscb - xsca << "msSTD time:" << solcb - xscb << "ms.\n";
+    cout << "Accept on test #" << i << ".Time: " << xscb - xsca << "ms.STD time:" << solcb - xscb << "ms.\n";
   }
   return 0;
 }
