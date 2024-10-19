@@ -27,7 +27,7 @@ int main(){
     if (system("fc t.out t.ans")){
     #endif
     #ifdef __linux__
-    if(system("diff t.out t.ans")){
+    if(system("diff -BZ t.out t.ans")){
     #endif
       cout << "Wrong answer on test #" << i << ".Time: " << 1.0 * (xscb - xsca ) / CLOCKS_PER_SEC << "ms.STD time:" << 1.0 * (solcb - xscb) / CLOCKS_PER_SEC << "ms.\n";
       return 0;
